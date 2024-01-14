@@ -1,6 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fc051af-e7eb-4943-b0e2-f0347e72fa95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GbPortal/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/debugbar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/docker/README.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/docker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/docker/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/docker/php-fpm/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/docker/php-fpm/php-ini-overrides.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/laravel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/debugbar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GbPortal/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2axHQL0ockLx3U23O2b39zZiS6q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fc051af-e7eb-4943-b0e2-f0347e72fa95" name="Default Changelist" comment="" />
+      <created>1705253315278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705253315278</updated>
+      <workItem from="1705253331500" duration="344000" />
+    </task>
+    <task id="LOCAL-00001" summary="index.php">
+      <created>1705253505622</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705253505622</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.php" />
   </component>
 </project>
