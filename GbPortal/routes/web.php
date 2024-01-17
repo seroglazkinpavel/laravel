@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Two_learnController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 Route::get('/hello/{name}', static function (string $name) {
     return "Hello $name";
 });
+
+Route::get('/', [Two_learnController::class, 'index']);
