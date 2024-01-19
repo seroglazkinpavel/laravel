@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc051af-e7eb-4943-b0e2-f0347e72fa95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+    <list default="true" id="3fc051af-e7eb-4943-b0e2-f0347e72fa95" name="Default Changelist" comment="Домашняя работа 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GbPortal/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/GbPortal/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +14,9 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_COMMON_BRANCH" value="lesson_2" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -173,7 +173,10 @@
       <workItem from="1705511501562" duration="1004000" />
       <workItem from="1705512594283" duration="1785000" />
       <workItem from="1705514429621" duration="1775000" />
-      <workItem from="1705516251789" duration="770000" />
+      <workItem from="1705516251789" duration="1785000" />
+      <workItem from="1705518149648" duration="1318000" />
+      <workItem from="1705676851837" duration="1263000" />
+      <workItem from="1705682683451" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="index.php">
       <created>1705253505622</created>
@@ -189,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705254003172</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Домашняя работа 2">
+      <created>1705517260668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705517260668</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Домашняя работа 2">
+      <created>1705518627574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705518627574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +215,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="index.php" />
     <MESSAGE value="Установка laravel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Установка laravel" />
+    <MESSAGE value="Домашняя работа 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашняя работа 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
