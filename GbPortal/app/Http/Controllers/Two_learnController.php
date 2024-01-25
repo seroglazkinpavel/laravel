@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Exceptions\MyException;
 use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
@@ -15,5 +16,10 @@ class Two_learnController extends Controller
             $digital[] = $i;
         }
         return view('lesson_2.index', ['digitalList' => $digital]);
+    }
+
+    public function testException()
+    {
+        throw new MyException;
     }
 }

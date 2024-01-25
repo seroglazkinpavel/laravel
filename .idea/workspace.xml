@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc051af-e7eb-4943-b0e2-f0347e72fa95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GbPortal/app/Exceptions/MyException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GbPortal/app/Http/Controllers/Two_learnController.php" beforeDir="false" afterPath="$PROJECT_DIR$/GbPortal/app/Http/Controllers/Two_learnController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GbPortal/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/GbPortal/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +17,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_COMMON_BRANCH" value="lesson_2" />
+    <option name="RECENT_COMMON_BRANCH" value="lesson_1" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -177,7 +180,9 @@
       <workItem from="1705518149648" duration="1318000" />
       <workItem from="1705676851837" duration="1263000" />
       <workItem from="1705682683451" duration="57000" />
-      <workItem from="1705684390516" duration="367000" />
+      <workItem from="1705684390516" duration="990000" />
+      <workItem from="1705686399928" duration="31000" />
+      <workItem from="1706193189600" duration="1256000" />
     </task>
     <task id="LOCAL-00001" summary="index.php">
       <created>1705253505622</created>
@@ -214,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705684686183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Домашняя работа 2">
+      <created>1705684781522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705684781522</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

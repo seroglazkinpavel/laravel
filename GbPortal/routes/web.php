@@ -23,3 +23,7 @@ Route::get('/hello/{name}', static function (string $name) {
 });
 
 Route::get('/', [Two_learnController::class, 'index']);
+
+//Exception
+Route::get('/testexception', [Two_learnController::class, 'testException'])
+    ->name('categories.testexception');
