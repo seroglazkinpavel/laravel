@@ -18,4 +18,13 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('/', [Laravel_learn::class, 'test']);
+Route::get('/', [Laravel_learn::class, 'query_builder_all']);
+Route::get('/select/{id}', [Laravel_learn::class, 'query_builder_first']);
+Route::get('/insert', [Laravel_learn::class, 'query_builder_insert']);
+Route::get('/update/{id}', [Laravel_learn::class, 'query_builder_update']);
+Route::get('/delete/{id}', [Laravel_learn::class, 'query_builder_delete']);
+
+
+Route::get('/{id}', [Laravel_learn::class, 'test'])
+    ->where('id', '\d+');
+
