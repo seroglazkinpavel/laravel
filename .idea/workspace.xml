@@ -4,8 +4,7 @@
     <list default="true" id="3fc051af-e7eb-4943-b0e2-f0347e72fa95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/app/Http/Controllers/Laravel_learn.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/app/Http/Controllers/Laravel_learn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/app/Models/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/app/Models/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="lesson_3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -160,7 +159,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/laravel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -203,6 +202,19 @@
       <workItem from="1707142030122" duration="1733000" />
       <workItem from="1707162267361" duration="399000" />
       <workItem from="1707221862029" duration="617000" />
+      <workItem from="1707331027159" duration="570000" />
+      <workItem from="1707754708739" duration="678000" />
+      <workItem from="1707756636258" duration="594000" />
+      <workItem from="1707760532085" duration="593000" />
+      <workItem from="1707762423550" duration="594000" />
+      <workItem from="1707919007646" duration="565000" />
+      <workItem from="1707920941222" duration="981000" />
+      <workItem from="1707926612649" duration="591000" />
+      <workItem from="1707928430029" duration="593000" />
+      <workItem from="1708017544464" duration="568000" />
+      <workItem from="1708775416633" duration="594000" />
+      <workItem from="1708777727171" duration="594000" />
+      <workItem from="1708793220264" duration="1578000" />
     </task>
     <task id="LOCAL-00001" summary="index.php">
       <created>1705253505622</created>
@@ -218,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707058075383</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Произведена миграция таблиц. Созданы 3 модели, бд">
+      <created>1707331329414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707331329414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +246,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="index.php" />
     <MESSAGE value="Произведена миграция таблиц. Созданы 3 модели." />
-    <option name="LAST_COMMIT_MESSAGE" value="Произведена миграция таблиц. Созданы 3 модели." />
+    <MESSAGE value="Произведена миграция таблиц. Созданы 3 модели, бд" />
+    <option name="LAST_COMMIT_MESSAGE" value="Произведена миграция таблиц. Созданы 3 модели, бд" />
   </component>
 </project>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Book;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
 
 class Laravel_learn extends Controller
 {
@@ -73,10 +74,32 @@ class Laravel_learn extends Controller
         $deleted = DB::table('books')->where('id', '=', $id)->delete();
         dump($deleted);
     }
-    
+
     public function my_print($array) {
         echo '<pre>';
             print_r($array);
         echo '</pre>';
+    }
+
+    // Метод для api
+    public function query_api(Request $request) {
+        $validator = Validator::make($request->all(), [
+            'title' => 'required|min:5',
+            'price' => 'required|min:4',
+            'text' => 'required|min:4|max:225',
+        ]);
+        if ($validator->fails()) {
+            $errors = $validator->errors();
+            if ($errors->has('title')) {
+                return "В title есть ошибка!";
+            } elseif ($errors->has('price')) {
+                return "В price есть ошибка!";
+            } elseif ($errors->has('text')) {
+                return "В text есть ошибка!";
+            }
+        } else {
+            return "Ошибок нет";
+        }
+
     }
 }
