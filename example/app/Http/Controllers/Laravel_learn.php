@@ -102,4 +102,43 @@ class Laravel_learn extends Controller
         }
 
     }
+
+    // Вывод книг
+    public function getBook() {
+        $books = DB::select('SELECT * FROM `books` WHERE 1');
+        #return $books;
+        return response()->json([
+            "books" => $books
+        ]);
+    }
+
+    // Создание книги
+    public function insertBook(Request $request) {
+        $name = $request->name; 
+        $price = $request->price; 
+        $book = DB::insert("INSERT INTO `books`(`name`, `price`) VALUES ('$name', '$price')");
+        #return $book;
+        return response()->json([
+            "book" => $book
+        ]);
+    }
+
+    //Редактирование книги
+    public function updateBook(Request $request) {
+        $id = $request->id;
+        $name = $request->name; 
+        $price = $request->price;
+        $book = DB::update(
+            "UPDATE `books` SET `id`='$id',`name`='$name',`price`='$price' WHERE books.id = $id"
+        );
+        return $book;
+    }
+
+    // Удаление книги
+    public function deleteBook(Request $request) {
+        $id = $request->id;
+        DB::delete("DELETE FROM `bookcategory` WHERE bookcategory.book_id = $id");
+        $book = DB::delete("DELETE FROM `books` WHERE books.id = $id");
+        return $book;
+    }
 }
