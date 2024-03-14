@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc051af-e7eb-4943-b0e2-f0347e72fa95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screenshot_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/app/Http/Controllers/Laravel_learn.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/app/Http/Controllers/Laravel_learn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +151,7 @@
       <path value="$PROJECT_DIR$/example/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/example/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/example/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/example/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="ProjectId" id="2axHQL0ockLx3U23O2b39zZiS6q" />
@@ -168,6 +172,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -217,7 +222,19 @@
       <workItem from="1708777727171" duration="594000" />
       <workItem from="1708793220264" duration="1578000" />
       <workItem from="1708795703784" duration="1496000" />
-      <workItem from="1709222199104" duration="316000" />
+      <workItem from="1709222199104" duration="1277000" />
+      <workItem from="1710091399510" duration="1541000" />
+      <workItem from="1710254861212" duration="1578000" />
+      <workItem from="1710256766341" duration="1135000" />
+      <workItem from="1710258601486" duration="594000" />
+      <workItem from="1710261270426" duration="163000" />
+      <workItem from="1710261622026" duration="1246000" />
+      <workItem from="1710327780378" duration="729000" />
+      <workItem from="1710329475708" duration="592000" />
+      <workItem from="1710331285390" duration="593000" />
+      <workItem from="1710333562282" duration="588000" />
+      <workItem from="1710335784396" duration="731000" />
+      <workItem from="1710338184266" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="index.php">
       <created>1705253505622</created>
@@ -247,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708796074581</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="В классе Laravel_learn.php сосданы методы: создание, обновление, удаление и выод книг, в файле api.php создан маршруты.">
+      <created>1709222778927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709222778927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +282,7 @@
     <MESSAGE value="Произведена миграция таблиц. Созданы 3 модели." />
     <MESSAGE value="Произведена миграция таблиц. Созданы 3 модели, бд" />
     <MESSAGE value="В классе Laravel_learn.php сосдан метод query_api(), в файле api.php создан маршрут" />
-    <option name="LAST_COMMIT_MESSAGE" value="В классе Laravel_learn.php сосдан метод query_api(), в файле api.php создан маршрут" />
+    <MESSAGE value="В классе Laravel_learn.php сосданы методы: создание, обновление, удаление и выод книг, в файле api.php создан маршруты." />
+    <option name="LAST_COMMIT_MESSAGE" value="В классе Laravel_learn.php сосданы методы: создание, обновление, удаление и выод книг, в файле api.php создан маршруты." />
   </component>
 </project>

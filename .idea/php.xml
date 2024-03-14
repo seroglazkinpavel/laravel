@@ -116,6 +116,7 @@
       <path value="$PROJECT_DIR$/example/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/example/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/example/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/example/vendor/predis/predis" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

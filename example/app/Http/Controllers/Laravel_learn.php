@@ -137,7 +137,7 @@ class Laravel_learn extends Controller
     // Удаление книги
     public function deleteBook(Request $request) {
         $id = $request->id;
-        DB::delete("DELETE FROM `bookcategory` WHERE bookcategory.book_id = $id");
+        DB::delete("DELETE FROM `bookcategory` WHERE bookcategory.book_id = ");
         $book = DB::delete("DELETE FROM `books` WHERE books.id = $id");
         return $book;
     }
