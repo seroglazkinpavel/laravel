@@ -1,2 +1,2 @@
 # laravel
-laravel php
+PHP - фреймворк laravel

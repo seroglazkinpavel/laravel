@@ -2,107 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc051af-e7eb-4943-b0e2-f0347e72fa95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GbPortal/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/debugbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/sanctum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/docker/README.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/docker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/docker/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/docker/php-fpm/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/docker/php-fpm/php-ini-overrides.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/laravel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/debugbar/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GbPortal/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/app/Http/Controllers/Laravel_learn.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/app/Http/Controllers/Laravel_learn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/example/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson_5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/example/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/example/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/example/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/example/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/example/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/example/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/example/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/example/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/example/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/example/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/example/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/example/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/example/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/example/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/example/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/example/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/example/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/example/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/example/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/example/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/example/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/example/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/example/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/example/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/example/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/example/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/example/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/example/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/example/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/example/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/example/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/example/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/example/vendor/league/config" />
+      <path value="$PROJECT_DIR$/example/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/example/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/example/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/example/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/example/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/example/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/example/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/example/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/example/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/example/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/example/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/example/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/example/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/example/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/example/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/example/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/example/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/example/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/example/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/example/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/example/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/example/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/example/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/example/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/example/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/example/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/example/vendor/composer" />
+      <path value="$PROJECT_DIR$/example/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/example/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/example/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/example/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/example/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/example/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/example/vendor/predis/predis" />
+    </include_path>
   </component>
   <component name="ProjectId" id="2axHQL0ockLx3U23O2b39zZiS6q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -114,7 +164,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/laravel" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer1\OSPanel\domains\laravel" />
+      <recent name="C:\OpenServer1\OSPanel\domains\laravel\example\database\migrations" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -125,6 +190,51 @@
       <option name="presentableId" value="Default" />
       <updated>1705253315278</updated>
       <workItem from="1705253331500" duration="344000" />
+      <workItem from="1706976389782" duration="733000" />
+      <workItem from="1706977185528" duration="112000" />
+      <workItem from="1706977341917" duration="298000" />
+      <workItem from="1706979859518" duration="1357000" />
+      <workItem from="1706981629054" duration="1467000" />
+      <workItem from="1706983846429" duration="1504000" />
+      <workItem from="1706985831227" duration="2970000" />
+      <workItem from="1707051573206" duration="1732000" />
+      <workItem from="1707053353868" duration="1695000" />
+      <workItem from="1707055221592" duration="1666000" />
+      <workItem from="1707057670647" duration="1291000" />
+      <workItem from="1707065755470" duration="586000" />
+      <workItem from="1707067728177" duration="592000" />
+      <workItem from="1707069521970" duration="821000" />
+      <workItem from="1707140990583" duration="594000" />
+      <workItem from="1707142030122" duration="1733000" />
+      <workItem from="1707162267361" duration="399000" />
+      <workItem from="1707221862029" duration="617000" />
+      <workItem from="1707331027159" duration="570000" />
+      <workItem from="1707754708739" duration="678000" />
+      <workItem from="1707756636258" duration="594000" />
+      <workItem from="1707760532085" duration="593000" />
+      <workItem from="1707762423550" duration="594000" />
+      <workItem from="1707919007646" duration="565000" />
+      <workItem from="1707920941222" duration="981000" />
+      <workItem from="1707926612649" duration="591000" />
+      <workItem from="1707928430029" duration="593000" />
+      <workItem from="1708017544464" duration="568000" />
+      <workItem from="1708775416633" duration="594000" />
+      <workItem from="1708777727171" duration="594000" />
+      <workItem from="1708793220264" duration="1578000" />
+      <workItem from="1708795703784" duration="1496000" />
+      <workItem from="1709222199104" duration="1277000" />
+      <workItem from="1710091399510" duration="1541000" />
+      <workItem from="1710254861212" duration="1578000" />
+      <workItem from="1710256766341" duration="1135000" />
+      <workItem from="1710258601486" duration="594000" />
+      <workItem from="1710261270426" duration="163000" />
+      <workItem from="1710261622026" duration="1246000" />
+      <workItem from="1710327780378" duration="729000" />
+      <workItem from="1710329475708" duration="592000" />
+      <workItem from="1710331285390" duration="593000" />
+      <workItem from="1710333562282" duration="588000" />
+      <workItem from="1710335784396" duration="731000" />
+      <workItem from="1710338184266" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="index.php">
       <created>1705253505622</created>
@@ -133,7 +243,35 @@
       <option name="project" value="LOCAL" />
       <updated>1705253505622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Произведена миграция таблиц. Созданы 3 модели.">
+      <created>1707058075383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707058075383</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Произведена миграция таблиц. Созданы 3 модели, бд">
+      <created>1707331329414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707331329414</updated>
+    </task>
+    <task id="LOCAL-00004" summary="В классе Laravel_learn.php сосдан метод query_api(), в файле api.php создан маршрут">
+      <created>1708796074581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708796074581</updated>
+    </task>
+    <task id="LOCAL-00005" summary="В классе Laravel_learn.php сосданы методы: создание, обновление, удаление и выод книг, в файле api.php создан маршруты.">
+      <created>1709222778927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709222778927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +279,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="index.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.php" />
+    <MESSAGE value="Произведена миграция таблиц. Созданы 3 модели." />
+    <MESSAGE value="Произведена миграция таблиц. Созданы 3 модели, бд" />
+    <MESSAGE value="В классе Laravel_learn.php сосдан метод query_api(), в файле api.php создан маршрут" />
+    <MESSAGE value="В классе Laravel_learn.php сосданы методы: создание, обновление, удаление и выод книг, в файле api.php создан маршруты." />
+    <option name="LAST_COMMIT_MESSAGE" value="В классе Laravel_learn.php сосданы методы: создание, обновление, удаление и выод книг, в файле api.php создан маршруты." />
   </component>
 </project>
